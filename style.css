@@ -1,0 +1,106 @@
+.header {
+  background-color: #FBB4C9;
+  padding: 10px;
+  
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #8DD1F1;
+  text-align: center;
+}
+
+body
+{
+  background-color: #FEFFF5;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #3088AE;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  color: #3088AE;
+}
+
+button {
+  width: 20%;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.button {
+  background-color: #FEE0CC; /* Green */
+  border: 1px solid green;
+  color: #3088AE;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 3em;
+  cursor: pointer;
+  float: left;
+}
+
+.button:hover {
+    background-color: #AFF1F1;
+}
+
+@media all and (min-width: 960px) {
+h1{
+    font-size: 50px;
+  }
+.box {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+h1{
+    font-size: 5vw;
+  }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+h1{
+    font-size:10vw;
+  }
+button {
+    width: 50%;
+}
+}
+
+textarea {
+  padding-left: 5px;
+  border: solid #8FB0EB 1px;
+  background-color: #FFFFFF;
+  resize: none;
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin-top: 10px;
+}
+
+#input-area {
+   background-color: #CEF9EE;
+}
+
+#output-area {
+   background-color: #D2F8DF;
+}
+
+#button-container {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
